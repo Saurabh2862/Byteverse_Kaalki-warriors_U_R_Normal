@@ -1,13 +1,26 @@
 # Byteverse_Kaalki-warriors_U_R_Normal
-# InQuera 
+# BYTEVERSE_HACKTHON
 ## Kaalki Warrior 
+#CollabrTION WITH:  1. vikaskumar168
+                   2.DevAbhinay789
+                   3.roshanbirla07
 Project Video link :https://drive.google.com/drive/folders/1jBqxhaWIyCO_nx7mtr2v3CMWGnZGsLnq?usp=sharing
 
 PPT link:https://drive.google.com/drive/folders/1jBqxhaWIyCO_nx7mtr2v3CMWGnZGsLnq?usp=sharing
 
 ## Dependencies for frontend (HTML,CSS,Javascripts)
 
- 
+ A brief description of what this project does and who it's for
+
+HTML
+None
+CSS
+Bootstrap (https://getbootstrap.com/)
+Font Awesome (https://fontawesome.com/)
+JavaScript
+jQuery (https://jquery.com/)
+Popper.js (https://popper.js.org/)
+Bootstrap (https://getbootstrap.com/)
   
 ## Dependencies for Backend (Nodejs)
 
@@ -23,7 +36,7 @@ PPT link:https://drive.google.com/drive/folders/1jBqxhaWIyCO_nx7mtr2v3CMWGnZGsLn
 
 For locally setting this project run these commands
  
-git clone https:
+git clone https://github.com/Saurabh2862/Byteverse_Kaalki-warriors_U_R_Normal.git
 
 cd hackNITP_INQUERA
 
