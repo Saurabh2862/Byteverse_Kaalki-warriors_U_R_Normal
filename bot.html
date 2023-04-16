@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthBot</title >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="icon" href="image/favicon (3).ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="stylebot.html.css">
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+        <a  href="index.html"><img class="logo" src="image/LOGO1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="appointment.html">Book Appointment</a></li>
+                <li><a href="bot.html">Chat with Us</a></li>
+                <li><a href="contactus .html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </nav>
+  <div class="bg-desktop">
+    <div class="bg-chat">
+      <div id="area-messages" class="area-messages">
+      </div>
+      <div id="area-interaction" class="area-interaction">
+        <p id="typing" class="no-typing">Healthbot is getting ready</p>
+        <div class="text-interaction">
+          <div class="write-message">
+            <input type="text" name="message" id="message">
+          </div>
+          <div class="send-button">
+            <button id="send" class="send" onclick="getData()"><i class="fas fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="calcbot.js"></script>
+  <script src="scriptbot.html.js"></script>
+</body>
+
+</html>

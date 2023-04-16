@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif; 
+}
+.header
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(image/banner1.png);
+background-position: center;
+background-size: cover;
+position:relative;
+}
+nav
+{
+    display:flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items:center;
+
+}
+nav img{
+    width: 150px;
+}
+.logo
+{
+      border-radius: 5px;
+}
+.nav-links
+{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    /* font-family: font-family: 'Alkatra', cursive; */
+    
+}
+.nav-links ul li::after
+{
+    content: '';
+    width:0%;
+    height:2px;
+    background: #dc2be9;
+    display:block;
+    margin: auto;
+
+}
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+body{
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+	background-image: url(../images/background.jpg);
+}
+.inner-layer{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-color: rgba(0,147,173,0.7);
+	overflow: auto;
+}
+.form-data{
+	margin-top: 21%;
+	background-color: #FFF;
+	
+}
+.form-body{
+	padding: 20px;
+}
+.form-head{
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+.form-head h2{
+	font-size: 22px;
+	font-weight: 600;
+}
+.no-margin{
+	margin: 0px;
+}
+
+.form-row{
+	margin-bottom: 15px;
+}
+.form-control{
+	background-color: #f7f7ff;
+	border-radius: 0px;
+
+}
+.form-control:focus{
+	box-shadow: none;
+	border: 3px solid #138496;
+}
+.btn-appointment{
+	background-color: #138496 !important;
+	border-color: #138496 !important;
+	width: 100%;
+}
+.content{
+	margin-top: 15%;
+	text-align: center;
+	color: #FFF;
+	padding: 30px;
+}
+.content h1{
+	font-weight: 600;
+	font-size: 3.5rem;
+}
+.content h2{
+	font-weight: 600;
+	font-size:2.5rem;
+	margin-top: 20px;
+}
+.content p{
+	font-size: 22px;
+	margin-top: 20px;
+}
+.datepicker td, .datepicker th{
+	padding: 5px;
+}
+.dropdown-menu.datepicker{
+	max-width: 300px !important;
+}
+
+
+@media screen and (max-width: 976px){
+	
+}
